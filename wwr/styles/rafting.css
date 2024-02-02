@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Saira+Semi+Condensed&display=swap');
 :root {
-    --primary-color: #DBA159;
+    --primary-color: #e45a0a;
     --secondary-color: #BFDCBC;
     --accent1-color: #F3F6F7;
     --accent2-color: #ADADAD;
@@ -8,12 +8,12 @@
     --heading-font: 'Kanit', sans-serif, monospace;
     --paragraph-font: 'Saira Semi Condensed' ,sans-serif, display;
 
-    --nav-background-color: #ADADAD;
-    --nav-link-color: #BFDCBC;
+    --nav-background-color: darkblue;
+    --nav-link-color: white;
     --nav-hover-link-color: #DBA159;
     --nav-hover-background-color: #F3F6F7;
     --hero-article-background-color: #f3f6f78e;
-    --hero-h1-background-color: #adadadd8;
+    --hero-h1-background-color: #111111d8;
 }
 
 body {
@@ -151,6 +151,10 @@ nav a:hover {
     text-align: center;
 }
 
+.sociallinks {
+    background-color: inherit;
+}
+
 .sociallinks img {
     height: 40px;
 }
@@ -161,7 +165,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: var(--nav-background-color);
+    background-color: var(--accent2-color);
     display: grid;
 	grid-template-columns: 4fr 1fr;
     margin: 20px 0 0;
