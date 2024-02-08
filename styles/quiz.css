@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+body {
+    font-family: Fraunces;
+    font-size: 1em;
+    color: darkgreen;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #badbad;
+    width: 550px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+#q1, #q2 {
+    width: 98%;
+}
+
+#q4 {
+    width: 60px;
+}
+
+input, textarea, select {
+    padding: 3px 5px;
+}
+
+button {
+    margin: 0.5rem;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: .5rem;
+    padding: .30rem;
+    font-size: 1rem;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #fadfad;
+}
+
+footer {
+    text-align: center;
+}
