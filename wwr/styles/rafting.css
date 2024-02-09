@@ -129,7 +129,7 @@ nav a:hover {
     align-items: flex-end;
 }
 
-.adventure figure {
+.adventure-gallery figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
@@ -138,12 +138,12 @@ nav a:hover {
     margin: auto;
 }
   
-.adventure img {
+.adventure-gallery img {
     max-width: 220px;
     max-height: 150px;
 }
 
-.adventure figcaption {
+.adventure-gallery figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
@@ -176,4 +176,97 @@ footer p {
     padding: 11px;
     margin: 5px auto;
 }
+
+.contact_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info li {
+    list-style-type: none;
+}
+
+.contact_info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 550px;
+    height: 300px;
+    border: 10px solid var(--accent1-color);
+}
+
+.maps {
+    margin: 20px;
+}
+
+.employee_profile {
+    border: 10px solid var(--accent1-color);
+}
+
+.employee_profile h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #badbad;
+    width: 550px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+form p {
+    margin: 0;
+    padding: 0;
+}
+
+form textarea {
+    width: 90%;
+}
+
+.radio_button input {
+    width: 15.5px;
+    height: 15.5px;
+    margin: 10px;
+}
+
+.input_label {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.input_label input {
+    width: 375px;
+}
+
+input, textarea {
+    padding: 3px 5px;
+}
+
+.newsletter input {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+
+button {
+    margin: 0.5rem;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: .5rem;
+    padding: .30rem;
+    font-size: 1rem;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #fadfad;
+}
+
   
