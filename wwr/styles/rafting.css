@@ -269,4 +269,224 @@ button:hover {
     background-color: #fadfad;
 }
 
-  
+.book_it {
+    display: flex;
+    border: 10px solid var(--accent1-color);
+    height: 150px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background_photo_contact_link.webp");
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+ .book_it a {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: var(--nav-link-color);
+    color: var(--nav-background-color);
+    padding: 15px;
+    border-radius: .5rem;
+ }
+
+.book_it a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+.trip_favorites {
+    height: 300px;
+    margin: 20px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trip_favorites .figure_block {
+    border: 10px solid var(--accent1-color);
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 250px;
+    height: 260px;
+}
+
+.trip_favorites .figure_block img {
+    max-width: 250px;
+    max-height: 175px;
+}
+
+.trip_favorites .figure_block figure {
+    display: flex;
+    flex-flow: column;
+    height: 250px;
+    margin: auto;
+}
+
+.trip_favorites .figure_block figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.trip_favorites .figure_block p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.trip_details {
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    margin: 10px 0;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trip_details table {
+    border-collapse: collapse;
+    width: 900px;
+    border: 2px solid darkblue;
+}
+
+.trip_details td {
+    border: 2px solid darkblue;
+}
+
+.message {
+    border: thin solid black;
+    height: 400px;
+    margin: 10px;
+}
+
+.message img {
+
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower_left {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 48%;
+    margin: 10px;
+}
+
+.newsletter_form form {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #badbad;
+    width: 92%;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}
+
+.newsletter_form form p {
+    text-align: center;
+}
+
+.newsletter_form form input {
+    margin: 0 5px;
+}
+
+.photo_gallery {
+    display: flex;
+    height: 270px;
+    gap: 10px;
+}
+
+.photo_gallery img {
+    max-width: 175px;
+    max-height: 175px;
+}
+
+.photo_gallery .figure_block {
+    border: 10px solid var(--accent1-color);
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 250px;
+}
+
+.photo_gallery .figure_block figure {
+    display: flex;
+    flex-flow: column;
+    height: 250px;
+    margin: auto;
+}
+
+.photo_gallery .figure_block figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.photo_gallery .figure_block p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lower_right {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 48%;
+    margin: 10px;
+}
+
+.visit_trip_page {
+    display: flex;
+    border: 10px solid var(--accent1-color);
+    height: 195px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+ .visit_trip_page a {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: var(--nav-link-color);
+    color: var(--nav-background-color);
+    padding: 15px;
+    border-radius: .5rem;
+ }
+
+.visit_trip_page a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+.hero.home h1 {
+    color: var(--nav-background-color);
+    background-color: var(--hero-article-background-color);
+    padding: 0px 0px 0px 200px;
+    font-size: 80px;
+}
+
+.hero.home h2 {
+    color: var(--nav-background-color);
+    position: absolute;
+    top: 126px;
+    background-color: var(--hero-article-background-color);
+    width: 100%;
+    padding: 0px 0px 0px 415px;
+}
