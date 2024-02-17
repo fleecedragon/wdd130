@@ -171,6 +171,10 @@ footer {
     margin: 20px 0 0;
 }
 
+footer a {
+    color: black;
+}
+
 footer p {
     text-align: center;
     padding: 11px;
